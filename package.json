@@ -1,0 +1,23 @@
+{
+  "name": "demo-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo-1-hello-world.js",
+  "scripts": {
+    "demo1": "nodemon demo-1-hello-world.js",
+    "demo2": "nodemon demo-2-goodbye-world.js",
+    "demo3": "nodemon demo-3-middleware.js",
+    "demo4": "nodemon demo-4-authenticate.js",
+    "demo5": "nodemon demo-5-https.js",
+    "demo6": "nodemon demo-6-router.js",
+    "demo7": "nodemon demo-7-rest-api.js",
+    "start": "nodemon demo-1-hello-world.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
